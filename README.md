@@ -1,6 +1,6 @@
 # Amazon product status checks
 
-
+## FILE RAN SUCCESSFULLY FOR 3 DAYS.... 
 ## Project Overview
 - We need to know which factors influence to give a loan
 - We also need to look for any opportunity to increase the bank's assets.
