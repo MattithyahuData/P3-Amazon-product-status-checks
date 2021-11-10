@@ -1,5 +1,12 @@
 # Amazon product status checks
 
+
+READ ME TEMPLATE 
+DAT SOURCE DESCP 
+DATA SOURE LINK ..... 
+
+What Data did you collect, how often did you collect it? 
+
 ## FILE RAN SUCCESSFULLY FOR 3 DAYS.... 
 ## Project Overview
 - We need to know which factors influence to give a loan
@@ -70,7 +77,11 @@ The exploratory data analysis was done with the target questions in mind. Severa
 1. Select players with the highest market values.
 2. Select more younger players. 
 
-
+Project Managment
+2 week Sprint 
+- Jira
+- Confluence
+- Trello 
 
 #### To see more projects CLICK [here](https://mattithyahudata.github.io/devportfolio/).
 ##### If you have any questions on the project [EMAIL ME](mailto:mattithyahuowolabi@gmail.com) 
