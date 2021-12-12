@@ -3,7 +3,7 @@
 * Web scraped data on product 
 * Automated email updates by automating code runner
 
-[View Automation Code](Code/P3 Code.ipynb)
+[View Automation Code](P3 Code.ipynb)
 
 ## Resources Used
 **Python 3.8, Windows Task Scheduler, Gmail, Amazon** 
