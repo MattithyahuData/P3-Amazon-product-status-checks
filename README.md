@@ -1,6 +1,14 @@
-# Amazon product status checks
+# 🛍 Amazon product status checks: Project Overview 
+* Tracking product updates using
+* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
+* Built a client facing API using flask 
 
+[View Automation Code](https://carsalepricecalc.herokuapp.com/)
 
+## Resources Used
+**Python 3.8, Windows Task Scheduler, GMAIL, Amazon** 
+
+task shecudler to automate python script run 
 READ ME TEMPLATE 
 DAT SOURCE DESCP 
 DATA SOURE LINK ..... 
@@ -32,13 +40,13 @@ After importing the libraries we prepared the data for analysis.
 - Elimination of negative values and useless columns
 - Exploration of the correlation of data and outliers: There is a strong correlation between age and experience
 
-![Heat map of data distribution](Images/Correlation_heatmap.png)
+![Product before](images/Product Before.png)
 
 - Analysis of the distribution of the data: A large number of outliers were found in income
 
-![Outliers](Images/Boxplot_outliers.png)
+![Product after](images/Product Before.png)
 
-![Histogram](Images/Data distribution.png)
+![Histogram](images/Product Before.png)
 
 ## EDA
 The exploratory data analysis was done with the target questions in mind. Several conclusions were obtained which will be presented below.
