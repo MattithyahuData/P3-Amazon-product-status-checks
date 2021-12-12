@@ -1,4 +1,4 @@
-# 🛍 Automated Amazon product checks: Project Overview 
+# 🛍 Amazon product status checks: Project Overview 
 * Tracking product updates using
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * Built a client facing API using flask 
@@ -8,6 +8,15 @@
 ## Resources Used
 **Python 3.8, Windows Task Scheduler, GMAIL, Amazon** 
 
+[**Anaconda Packages:**](requirements.txt) **pip install listed**; 
+**smtplib, requests, beautifulsoup4**
+
+## SMPT library to set up email
+Using smtplib I created a function for each email response that would be called upon based on the product avaialbility. av_email() would be called if avaialble and notav_email() otherwise. 
+*	I created a dummy email to perform this checking.	
+*		
+
+
 task shecudler to automate python script run 
 READ ME TEMPLATE 
 DAT SOURCE DESCP 
@@ -16,12 +25,7 @@ DATA SOURE LINK .....
 What Data did you collect, how often did you collect it? 
 
 ## FILE RAN SUCCESSFULLY FOR 3 DAYS.... 
-## Project Overview
-- We need to know which factors influence to give a loan
-- We also need to look for any opportunity to increase the bank's assets.
-- It was found that apart from income, family size is an important factor.
-- The libraries used were pandas, numpy, matplotlib, seaborn and scipy.
-- You can access the Jupiter Notebook at this **[LINK](https://github.com/MattithyahuData/P3-Amazon-Webscraping/blob/master/P3%20Code.ipynb)**
+
 
 ## Objectives
 Central question:
