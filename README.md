@@ -53,6 +53,9 @@ The exploratory data analysis was done with the target questions in mind. Severa
 
 - Distribution of client education: The most of clients are undergraduates but it appears that education does not have a direct relationship with personal loan.
 
+<img height="20" src="images/Product Before.png">
+
+
 ![Pie Chart: Education Level](Images/Pie_chart_Education.png)
 
 ![Personal loan and education](Images/Boxplot_personal_loan.png)
