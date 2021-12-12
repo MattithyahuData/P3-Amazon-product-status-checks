@@ -8,8 +8,8 @@
 ## Resources Used
 **Python 3.8, Windows Task Scheduler, GMAIL, Amazon** 
 
-[**Anaconda Packages:**](requirements.txt) **pip install listed**; 
-**smtplib, requests, beautifulsoup4**
+[**Anaconda Packages:**](requirements.txt)
+#### **smtplib, requests, beautifulsoup4**
 
 ## SMPT library to set up email
 Using smtplib I created a function for each email response that would be called upon based on the product avaialbility. av_email() would be called if avaialble and notav_email() otherwise. 
