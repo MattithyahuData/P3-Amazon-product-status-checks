@@ -1,4 +1,4 @@
-# 🛍 Amazon product status checks: Project Overview 
+# 🛍 Automated Amazon product checks: Project Overview 
 * Tracking product updates using
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * Built a client facing API using flask 
