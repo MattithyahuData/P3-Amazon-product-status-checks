@@ -6,7 +6,7 @@
 [View Automation Code](https://carsalepricecalc.herokuapp.com/)
 
 ## Resources Used
-**Python 3.8, Windows Task Scheduler, GMAIL, Amazon** 
+**Python 3.8, Windows Task Scheduler, Gmail, Amazon** 
 
 [**Anaconda Packages:**](requirements.txt) **smtplib, requests, beautifulsoup4**
 
