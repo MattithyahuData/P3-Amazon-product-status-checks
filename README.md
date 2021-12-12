@@ -40,13 +40,13 @@ After importing the libraries we prepared the data for analysis.
 - Elimination of negative values and useless columns
 - Exploration of the correlation of data and outliers: There is a strong correlation between age and experience
 
-![Product before](images/Product Before.png)
+[Product before](images/Product Before.png)
 
 - Analysis of the distribution of the data: A large number of outliers were found in income
 
-![Product after](images/Product Before.png)
+[Product after](images/Product Before.png)
 
-![Histogram](images/Product Before.png)
+[Histogram](images/Product Before.png)
 
 ## EDA
 The exploratory data analysis was done with the target questions in mind. Several conclusions were obtained which will be presented below.
