@@ -10,92 +10,40 @@
 
 [**Anaconda Packages:**](requirements.txt) **smtplib, requests, beautifulsoup4**
 
-## SMPT library to set up email
-Using smtplib I created a function for each email response that would be called upon based on the product avaialbility. av_email() would be called if avaialble and notav_email() otherwise. 
-*	I created a dummy email to perform this checking.	
-*		
+## SMPT library to set up email notifications
+Using smtplib I created a function for each email response that would be called upon based on the product avaialbility.  
+*	Created a dummy email to perform this checking.	
+*	av_email() would be called if product is avaialble.	
+*   notav_email() would be called if the product is unavaialble.
 
+## Webscraping product availbility data
+Using beautifulsoup4 I parsed the HTML to find where id was equal to "avaialbility" as this contained the availability data.  
+*	Conducted research to see possibilities in avaialibility.
+*	Created condition for calling av_email() or notav_email() functions based on data scraped.
 
-task shecudler to automate python script run 
-READ ME TEMPLATE 
-DAT SOURCE DESCP 
-DATA SOURE LINK ..... 
+### Before
+<img  src="images/Unavailable email.png">
 
-What Data did you collect, how often did you collect it? 
+### After
+<img  src="images/Available email.png">
 
-## FILE RAN SUCCESSFULLY FOR 3 DAYS.... 
+## Windows Task Scheduler
+In order to automate the code running process I used task scheduler to run the code at different intervals.  
+*	Batch file created with command to run code.
+*	Time conditions set in task scheduler of when to run code. 
 
-
-## Objectives
-Central question:
-
-**What is the most important factor to give a personal loan?**.
-
-Other questions:
-* What is the relationship between education and personal loan?
-* What is the distribution of the client population?
-* What types of accounts and security do our clients have?
-* What is the relationship between income and loans?
-* What is the relationship between mortgage and loans?
-
-## Data cleaning and preparation
-After importing the libraries we prepared the data for analysis.
-- Elimination of negative values and useless columns
-- Exploration of the correlation of data and outliers: There is a strong correlation between age and experience
-
-[Product before](images/Product Before.png)
-
-- Analysis of the distribution of the data: A large number of outliers were found in income
-
-[Product after](images/Product Before.png)
-
-[Histogram](images/Product Before.png)
-
-## EDA
-The exploratory data analysis was done with the target questions in mind. Several conclusions were obtained which will be presented below.
-
-- Distribution of client education: The most of clients are undergraduates but it appears that education does not have a direct relationship with personal loan.
-
+## Conclusion
+* The [batch file](Product checks.bat) ran successfully for 3 days before throwing an error because of a change in the HTML indicating the product had now become available.
+### Before
 <img  src="images/Product Before.png">
 
+### After
+<img  src="images/Product After.png">
 
-![Pie Chart: Education Level](Images/Pie_chart_Education.png)
-
-![Personal loan and education](Images/Boxplot_personal_loan.png)
-
-- Analysis of client account type: The vast majority of clients do not have a security or credit account. It could generate some extra assets for the bank if we find a way to encourage them to have one.
-
-![Pie chart, security and credit](Images/Pie_chart_Account_type.png)
-
-- Personal loan in relation to other factors: It seems that the most important factor for a loan is income, no surprise there. Another really important factor is the number of relatives in the family.
-
-![Personal Loan and Income](Images/Income_personal_loan.png)
-
-## Conclusions
-- The most influential values are income and family size.
-- The least influential values are age and experience. 
-- It is advisable to encourage customers to create a credit account and security.
-- You can access the code in this **[LINK](https://github.com/Roberto121c/Bank_loans_analysis/blob/main/Code/Finance_data_analysis.ipynb)**
-
-
-
-* Goal: Web scrape data to find a if there is a correlation between team attributes and team rank in The UEFA European Championship.
-
-
-*Based on Euro 2020 data
-
-
-* Conclusion: The higher the average market value and the younger the average age of a team the higher they will rank. 
-
-* BI Options for action:
-1. Select players with the highest market values.
-2. Select more younger players. 
-
-Project Managment
-2 week Sprint 
+## Project Managment (Scrum) 
+Software used:
 - Jira
 - Confluence
 - Trello 
 
-#### To see more projects CLICK [here](https://mattithyahudata.github.io/devportfolio/).
-##### If you have any questions on the project [EMAIL ME](mailto:mattithyahuowolabi@gmail.com) 
+##### If you have any questions on the project [EMAIL ME](mailto:theanalyticsolutions@gmail.com) 
