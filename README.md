@@ -3,7 +3,7 @@
 * Web scraped data on product 
 * Automated email updates by automating code runner
 
-[View Automation Code](P3 Code.ipynb)
+[View Automation Code](https://github.com/MattithyahuData/P3-Amazon-product-status-checks/blob/master/Code/P3%20Code.ipynb)
 
 ## Resources Used
 **Python 3.8, Windows Task Scheduler, Gmail, Amazon** 
@@ -36,6 +36,12 @@ To automate the code running process I used task scheduler to run the code at di
 <img  src="images/Available email.png">
 
 <img  src="images/Product After.png">
+
+* The span class HTML will change slightly from when it is unavailable to when it is available, but it is safe to say when you stop recieiving emails about it being unavaialble then its probably now avaialble. 
+
+    * Product Page HTML BEFORE <span class="a-size-medium a-color-price">Currently unavailable.
+
+    * Product Page HTML AFTER <span class="a-size-medium a-color-success">In stock on November 11, 2021.
 
 ## Project Management (Scrum) 
 Software used:
