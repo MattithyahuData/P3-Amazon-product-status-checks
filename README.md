@@ -43,10 +43,14 @@ To automate the code running process I used task scheduler to run the code at di
 
     * Product Page HTML AFTER -- span class="a-size-medium a-color-success">In stock on November 11, 2021.
 
-## Project Management (Scrum) 
-Software used:
-- Jira
-- Confluence
-- Trello 
+## Project Management (Agile | Scrum)
+* Resources used
+    * Jira
+    * Confluence
+    * Trello 
 
-##### If you have any questions on the project [EMAIL ME](mailto:theanalyticsolutions@gmail.com) 
+## Questions and See more projects    
+
+* #### [See more projects here](https://mattithyahutech.co.uk/)
+* #### [Contact me here](mailto:theanalyticsolutions@gmail.com) 
+
