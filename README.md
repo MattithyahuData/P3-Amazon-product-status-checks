@@ -114,7 +114,6 @@ def get_price():
         av_email()
 ```
 
-
 <a name="automation"></a>
 
 ## [Windows Task Scheduler](Automation/Code%20for%20bat%20file%20automation.py)
